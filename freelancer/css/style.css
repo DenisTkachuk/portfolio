@@ -5,4 +5,10 @@ body {
   margin: 0;
   height: 100%; }
 
+.top {
+  height: 100vh;
+  box-sizing: border-box; }
+  .top header nav ul {
+    margin: 0; }
+
 /*# sourceMappingURL=style.css.map */

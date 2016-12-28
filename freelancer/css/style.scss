@@ -1,2 +1,19 @@
 @import "type";
 @import "settings";
+
+.top {
+    height: 100vh;
+    box-sizing: border-box;
+    header {
+        .logo {}
+        nav {
+            ul {
+                margin: 0;
+            }
+        }
+    }
+    .slogan {
+
+    }
+}
+
