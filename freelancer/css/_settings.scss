@@ -2,6 +2,7 @@ $contentWidth: 940px;
 $baseFontSize: 15px;
 $baseLineHeight: 1.2;
 $textColor: #9aa0ab;
+$navColor: #263742;
 $accentColor: #fa5c65;
 $accentColorSec: #314a5b;
 
@@ -13,13 +14,19 @@ $accentColorSec: #314a5b;
     display: flex;
 
     -webkit-flex-flow: row wrap;
-    justify-content: flex-end;
+    flex-flow: row wrap;
 }
-
 %ul{
     list-style: none;
     padding: 0;
     margin: 0;
+}
+%transition {
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
 }
 
 body {
