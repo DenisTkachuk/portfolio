@@ -1,7 +1,37 @@
+$contentWidth: 940px;
+$baseFontSize: 15px;
+$baseLineHeight: 1.2;
+$textColor: #9aa0ab;
+$accentColor: #fa5c65;
+$accentColorSec: #314a5b;
+
+%flex{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+%ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
 body {
     color: #444;
     background: #f1f1f1;
     padding: 0;
     margin: 0;
     height: 100%;
+}
+
+.content-wrap {
+    max-width: $contentWidth;
+    width: 100%;
+    margin: 0 auto;
 }

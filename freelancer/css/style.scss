@@ -4,7 +4,12 @@
 .top {
     height: 100vh;
     box-sizing: border-box;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 50% 0;
+    background-attachment: fixed;
     header {
+        @extend %flex;
         .logo {}
         nav {
             ul {
