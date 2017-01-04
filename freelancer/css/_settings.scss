@@ -1,6 +1,8 @@
 $contentWidth: 940px;
 $baseFontSize: 15px;
 $baseLineHeight: 1.2;
+$baseFontFamily: "Open Sans", sans-serif;
+$titleFontFamily: "Montserrat", sans-serif;
 $textColor: #9aa0ab;
 $navColor: #263742;
 $accentColor: #fa5c65;
@@ -58,8 +60,34 @@ body {
     padding: 0;
     margin: 0;
     height: 100%;
+    font-family: $baseFontFamily;
+    font-weight: 400;
 }
 
+h1 {
+    font-family: $titleFontFamily;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 53px;
+    text-transform: uppercase;
+}
+
+.btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 1.2;
+    padding: 20px 35px;
+    border-radius: 7px;
+    background-color: $accentColor;
+    display: inline-block;
+    color: #fff;
+    font-weight: 700;
+    @include transition(.3s);
+    &:hover {
+        background: $accentColorSec;
+        //background: darken($accentColor, 15%);
+    }
+}
 .content-wrap {
     max-width: $contentWidth;
     width: 100%;

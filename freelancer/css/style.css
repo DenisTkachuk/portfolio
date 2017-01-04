@@ -6,7 +6,34 @@ body {
   background: #f1f1f1;
   padding: 0;
   margin: 0;
-  height: 100%; }
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 53px;
+  text-transform: uppercase; }
+
+.btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 1.2;
+  padding: 20px 35px;
+  border-radius: 7px;
+  background-color: #fa5c65;
+  display: inline-block;
+  color: #fff;
+  font-weight: 700;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s; }
+  .btn:hover {
+    background: #314a5b; }
 
 .content-wrap {
   max-width: 940px;
@@ -45,7 +72,7 @@ body {
           .top .content-wrap header nav ul li a {
             color: #263742;
             text-decoration: none;
-            font-family: Montserrat;
+            font-family: "Montserrat", sans-serif;
             font-size: 14px;
             font-weight: 400;
             line-height: 85px;
@@ -58,8 +85,12 @@ body {
             transition: 0.3s; }
             .top .content-wrap header nav ul li a:hover {
               color: #fa5c65; }
+          .top .content-wrap header nav ul li.social a {
+            padding: 10px 8px; }
     .top .content-wrap .slogan {
       width: 100%;
       max-width: 600px; }
+      .top .content-wrap .slogan h1 + p {
+        margin-bottom: 45px; }
 
 /*# sourceMappingURL=style.css.map */
