@@ -73,6 +73,9 @@ a.more {
   a.more:hover {
     color: #314a5b; }
 
+.right {
+  float: right; }
+
 .top {
   height: 100vh;
   box-sizing: border-box;
@@ -174,5 +177,19 @@ a.more {
         color: #314a5b;
         font-weight: 400;
         font-size: 16px; }
+
+.team {
+  margin-top: 35px; }
+  .team .team-list {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between; }
+    .team .team-list .team-member {
+      width: 30%; }
 
 /*# sourceMappingURL=style.css.map */
