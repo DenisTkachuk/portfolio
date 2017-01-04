@@ -41,6 +41,11 @@
                         &.social {
                             a {
                                 padding: 10px 8px;
+                                color: $accentColor;
+                                font-size: 18px;
+                                &:hover {
+                                    color: $accentColorSec;
+                                }
                             }
                         }
                     }

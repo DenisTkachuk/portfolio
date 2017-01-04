@@ -86,7 +86,11 @@ h1 {
             .top .content-wrap header nav ul li a:hover {
               color: #fa5c65; }
           .top .content-wrap header nav ul li.social a {
-            padding: 10px 8px; }
+            padding: 10px 8px;
+            color: #fa5c65;
+            font-size: 18px; }
+            .top .content-wrap header nav ul li.social a:hover {
+              color: #314a5b; }
     .top .content-wrap .slogan {
       width: 100%;
       max-width: 600px; }
