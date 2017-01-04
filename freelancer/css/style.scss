@@ -84,7 +84,34 @@
                 color: #9aa0ab;
             }
             .more {
-                
+
+            }
+        }
+    }
+}
+
+.portfolio {
+    margin-top: 50px;
+    .row {
+        @include flexbox;
+        justify-content: space-between;
+        align-items: center;
+        .col-1-2 {
+            width: 48%;
+            p {
+                color: $textColor;
+                margin: 30px 0;
+                @media all and (min-width: 980px){
+                    max-width: 90%;
+                }
+            }
+            p + a.more {
+                margin-top: 10px;
+            }
+            strong {
+                color: $accentColorSec;
+                font-weight: 400;
+                font-size: 16px;
             }
         }
     }

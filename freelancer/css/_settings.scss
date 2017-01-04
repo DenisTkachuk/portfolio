@@ -83,6 +83,15 @@ h1 {
     text-transform: uppercase;
 }
 
+h2 {
+    font-family: $titleFontFamily;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
 .btn {
     text-decoration: none;
     text-transform: uppercase;
@@ -102,6 +111,7 @@ h1 {
 
 a.more {
     color: $accentColor;
+    display: inline-block;
     font-size: 14px;
     font-family: $titleFontFamily;
     font-weight: 400;
