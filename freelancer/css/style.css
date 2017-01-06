@@ -180,16 +180,38 @@ a.more {
 
 .team {
   margin-top: 35px; }
+  .team header p {
+    margin-top: 0;
+    color: #9aa0ab; }
   .team .team-list {
     display: -webkit-box;
     display: -moz-box;
     display: -webkit-flex;
     display: flex;
     list-style-type: none;
-    margin: 0;
+    margin: 30px 0 20px;
     padding: 0;
     justify-content: space-between; }
     .team .team-list .team-member {
-      width: 30%; }
+      width: 30%;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -webkit-flex;
+      display: flex;
+      justify-content: space-between; }
+      .team .team-list .team-member figure {
+        margin: 0 10px 0 0; }
+      .team .team-list .team-member .info {
+        margin-top: 12px; }
+        .team .team-list .team-member .info .name {
+          font-size: 22px;
+          line-height: 26px; }
+        .team .team-list .team-member .info .job {
+          color: #fa5c65;
+          font-size: 14px; }
+        .team .team-list .team-member .info .like {
+          font-size: 14px;
+          margin-top: 6px;
+          color: #9aa0ab; }
 
 /*# sourceMappingURL=style.css.map */

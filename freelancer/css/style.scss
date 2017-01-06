@@ -119,14 +119,42 @@
 
 .team {
     margin-top: 35px;
+    header {
+        p {
+            margin-top: 0;
+            color: $textColor;
+        }
+    }
     .team-list {
         @include flexbox;
         list-style-type: none;
-        margin: 0;
+        margin: 30px 0 20px;
         padding: 0;
         justify-content: space-between;
         .team-member {
             width: 30%;
+            @include flexbox;
+            justify-content: space-between;
+            figure {
+                //flex: 2 1 auto;
+                margin: 0 10px 0 0;
+            }
+            .info {
+                margin-top: 12px;
+                .name {
+                    font-size: 22px;
+                    line-height: 26px;
+                }
+                .job {
+                    color: $accentColor;
+                    font-size: 14px;
+                }
+                .like {
+                    font-size: 14px;
+                    margin-top: 6px;
+                    color: $textColor;
+                }
+            }
         }
     }
 }
