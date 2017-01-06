@@ -16,6 +16,12 @@ body {
   max-width: 940px;
   width: 100%;
   margin: 0 auto; }
+  .content-wrap::after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden; }
 
 h1 {
   font-family: "Montserrat", sans-serif;
@@ -213,5 +219,48 @@ a.more {
           font-size: 14px;
           margin-top: 6px;
           color: #9aa0ab; }
+
+footer {
+  clear: both;
+  margin-top: 40px; }
+  footer .content-wrap {
+    padding-top: 25px;
+    border-top: 1px solid #e6eaed; }
+    footer .content-wrap .row {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -webkit-flex;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      footer .content-wrap .row .col-1-2 {
+        width: 48%; }
+      footer .content-wrap .row .col-1-3 {
+        width: 29%; }
+      footer .content-wrap .row .col-2-3 {
+        width: 69%; }
+  footer .copy {
+    text-align: right;
+    font-size: 13px;
+    color: #9aa0ab;
+    display: block; }
+  footer .footer-social {
+    list-style: none;
+    padding-left: 0; }
+    footer .footer-social li {
+      display: inline-block; }
+      footer .footer-social li a {
+        color: #b9c0c6;
+        font-size: 20px;
+        line-height: 1.2;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -ms-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+        display: block;
+        margin-right: 10px; }
+        footer .footer-social li a:hover {
+          color: #fa5c65; }
 
 /*# sourceMappingURL=style.css.map */
